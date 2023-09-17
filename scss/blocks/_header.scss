@@ -1,0 +1,19 @@
+.site-header {
+    padding-top: 48px;
+}
+
+.site-header__inner {
+    width: 100%;
+    max-width: 1204px;
+    margin: 0 auto;
+    padding: 0 20px;
+    @include flexbox;
+}
+
+.site-header__menu {
+    background-image: url(/images/menu.svg);
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+    border: transparent;
+}

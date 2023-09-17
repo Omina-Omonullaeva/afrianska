@@ -1,0 +1,111 @@
+.project {
+    padding-bottom: 192px;
+}
+
+.project__inner {
+    @include flexbox;
+    padding-right: 80px;
+    margin-bottom: 96px;
+}
+
+.project__title-wrapper {
+    width: 300px;
+}
+
+.project__title {
+    margin: 0;
+    color: #1F3F68;
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 1.8px;
+}
+
+.project__text-wrapper {
+    width: 560px;
+}
+
+.project__text {
+    margin: 0;
+    color: #1F3F68;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+    opacity: 0.6;
+}
+
+.project__img-wrapper {
+    background-image: url("/images/project-bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 48px 65px 320px 576px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 90px;
+}
+
+.project__subtitle {
+    margin: 0;
+    margin-bottom: 8px;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 1.4px;
+}
+
+.project__subtext {
+    margin: 0;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.8px;
+    opacity: 0.8;
+}
+
+.project__subinner {
+    @include flexbox;
+}
+
+.project__img-wrapper2 {
+    width: 422px;
+    background-image: url(/images/project-bg2.png);
+    background-repeat: no-repeat;
+    width: 422px;
+    padding: 24px 0 297px 32px;
+}
+
+.project__img-wrapper2:nth-child(2) {
+    padding: 24px 0 297px 32px;
+    background-image: url(/images/project-bg3.png);
+}
+
+.project__subtitle2 {
+    margin: 0;
+    margin-bottom: 4px;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 1.4px;
+}
+
+.project__subtext2 {
+    margin: 0;
+    opacity: 0.8;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.8px;
+}
